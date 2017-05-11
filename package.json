@@ -1,0 +1,19 @@
+{
+  "name": "teamhealth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Matteo Merola <mattmezza@gmail.com> (http://matteomerola.me)",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^2.1.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  }
+}
