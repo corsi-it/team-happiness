@@ -6,7 +6,7 @@ import Status from '../components/status'
 import Footer from '../components/footer'
 import Header from '../components/header'
 
-const team = 'corsi.it'
+const team = 'datasounds'
 
 export default class extends React.Component {
   constructor (props) {
