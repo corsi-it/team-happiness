@@ -36,7 +36,7 @@ export default class Footer extends React.Component {
             line-height: 12px;
           } 
         `}</style>
-        <p>&copy; <a href='http://matteomerola.me' target='blank'>Matteo Merola</a> 2017 - {this.state.status.tot} hits and counting...</p>
+        <p>&copy; <a href='https://matteo.merola.co' target='blank'>Matteo Merola</a> 2017 - {this.state.status.tot} hits and counting...</p>
       </footer>
     )
   }

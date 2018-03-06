@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start"
   },
-  "author": "Matteo Merola <mattmezza@gmail.com> (http://matteomerola.me)",
+  "author": "Matteo Merola <mattmezza@gmail.com> (https://matteo.meroala.co)",
   "license": "ISC",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
