@@ -29,14 +29,18 @@ export default class Footer extends React.Component {
             height: 20px;
             margin: 0;
             padding: 4px 0 4px 0;
-            background: #F27C21;
+            background: #1D9AD3;
           } 
           footer > p {
             font-size: 12px;
             line-height: 12px;
-          } 
+            color: white;
+          }
+          footer > p > a {
+            color: white;
+          }
         `}</style>
-        <p>&copy; <a href='https://matteo.merola.co' target='blank'>Matteo Merola</a> 2017 - {this.state.status.tot} hits and counting...</p>
+        <p>&copy; <a href='https://matteo.merola.co' target='blank'>Matteo Merola</a> 2017 - Corsi.it - {this.state.status.tot} hits and counting...</p>
       </footer>
     )
   }

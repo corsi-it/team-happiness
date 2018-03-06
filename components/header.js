@@ -4,23 +4,23 @@ export default () => (
   <header>
     <div className='top'> </div>
     <div className='title'>
-      <h1 style={{color: 'black'}}>Team health</h1>
+      <h1 style={{color: 'white'}}>CORSI.it</h1>
     </div>
     <style jsx>{`
       header {
-        background: #F9A11F;
+        background: white;
         position: relative;
         height: 200px;
       }
       .top {
-        background: #FCD837;
+        background: #1D9AD3;
         position: absolute;
         top: 0;
         width: 100%;
         height: 100px;
       }
       .title {
-        background: #fff;
+        background: #25B142;
         margin: 0 auto;
         height: 100px;
         width: 50%;
@@ -33,7 +33,6 @@ export default () => (
         line-height: 100px;
         font-weight: bold;
         white-space: nowrap; overflow: hidden;
-        text-transform: uppercase;
       }
     `}</style>
   </header>

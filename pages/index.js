@@ -6,7 +6,7 @@ import Status from '../components/status'
 import Footer from '../components/footer'
 import Header from '../components/header'
 
-const team = 'datasounds'
+const team = 'corsi.it'
 
 export default class extends React.Component {
   constructor (props) {
@@ -35,11 +35,11 @@ export default class extends React.Component {
 
   render () {
     return (
-    <div>
+    <div style={{fontFamily: 'Montserrat, sans-serif'}}>
       <Head>
         <title>Team Health</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic' />
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Montserrat:400,500,700' />
         <link rel='stylesheet' href='//cdn.rawgit.com/necolas/normalize.css/master/normalize.css' />
         <link rel='stylesheet' href='//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css' />
       </Head>

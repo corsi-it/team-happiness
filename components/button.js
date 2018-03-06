@@ -51,7 +51,7 @@ export default class Button extends React.Component {
         height: 160px;
         width: 160px;
         animation-name: select;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
       }

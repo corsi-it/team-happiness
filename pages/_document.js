@@ -20,9 +20,10 @@ export default class MyDocument extends Document {
            body {
              margin: 0;
              color: #000;
-             background: #F9A11F;
+             background: #FFF;
              text-align: center;
              min-height: 100%;
+             font-family: 'Montserrat', sans-serif;
            }
            a {
              color: #000;

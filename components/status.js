@@ -34,7 +34,7 @@ export default class Status extends React.Component {
               border-radius: 30px;
             }
             .bar > p {
-              background-color: #FFDD67;
+              background-color: #E91559;
               color: #000;
               text-align: center;
               height: 10px;
