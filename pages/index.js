@@ -17,7 +17,7 @@ export default class extends React.Component {
   }
 
   async update () {
-    const res = await fetch(`http://teamhappiness.datasounds.io/${team}`)
+    const res = await fetch(`http://teamhappiness.datasound.it/${team}`)
     const status = await res.json()
     this.refs.footer.update(status)
     this.refs.bad.update(status)
@@ -26,7 +26,7 @@ export default class extends React.Component {
     this.setState({ tot: status.tot })
   }
 
-  async handleClick (what) { fetch(`http://teamhappiness.datasounds.io/${team}/${what}`,{method: 'put'}) }
+  async handleClick (what) { fetch(`http://teamhappiness.datasound.it/${team}/${what}`,{method: 'put'}) }
 
   componentDidMount () {
     this.update()
